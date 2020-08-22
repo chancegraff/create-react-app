@@ -1,6 +1,6 @@
 {
   "name": "chancegraff-react-scripts",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Chance Graffs configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "bfj": "^7.0.2",
     "camelcase": "^6.0.0",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
+    "chancegraff-dev-utils": "^11.0.0",
     "css-loader": "3.6.0",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
