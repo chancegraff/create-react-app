@@ -17,7 +17,8 @@
     "alex": "alex .",
     "test": "cd packages/react-scripts && node bin/react-scripts.js test",
     "format": "prettier --trailing-comma es5 --single-quote --write 'packages/*/*.js' 'packages/*/!(node_modules)/**/*.js'",
-    "compile:lockfile": "node tasks/compile-lockfile.js"
+    "compile:lockfile": "node tasks/compile-lockfile.js",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.0",
