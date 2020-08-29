@@ -88,7 +88,7 @@ yarn
 startLocalRegistry "$root_path"/tasks/verdaccio.yaml
 
 # Lint own code
-./node_modules/.bin/eslint --max-warnings 0 packages/babel-preset-react-app/
+./node_modules/.bin/eslint --max-warnings 0 packages/@chancey/babel-preset-react-app/
 ./node_modules/.bin/eslint --max-warnings 0 packages/confusing-browser-globals/
 ./node_modules/.bin/eslint --max-warnings 0 packages/create-react-app/
 ./node_modules/.bin/eslint --max-warnings 0 packages/eslint-config-react-app/
