@@ -428,6 +428,9 @@ module.exports = function (webpackEnv) {
                 // @remove-on-eject-end
                 plugins: [
                   [
+                    require.resolve("babel-plugin-styled-components"),
+                  ],
+                  [
                     require.resolve('babel-plugin-named-asset-import'),
                     {
                       loaderMap: {
@@ -645,7 +648,7 @@ module.exports = function (webpackEnv) {
             entry: webpackDevClientEntry,
             // The expected exports are slightly different from what the overlay exports,
             // so an interop is included here to enable feedback on module-level errors.
-            module: require.resolve('chancegraff-dev-utils/refreshOverlayInterop'),
+            module: require.resolve('@chancey/dev-utils/refreshOverlayInterop'),
             // Since we ship a custom dev client and overlay integration,
             // the bundled socket handling logic can be eliminated.
             sockIntegration: false,

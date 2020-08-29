@@ -1,6 +1,6 @@
 {
   "name": "@chancey/react-scripts",
-  "version": "4.0.5",
+  "version": "4.0.6",
   "description": "Chance's configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
   "types": "./lib/react-app.d.ts",
   "dependencies": {
     "@babel/core": "7.10.5",
+    "@chancey/dev-utils": "^11.0.1",
+    "@chancey/babel-preset-react-app": "^9.1.4",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.1",
     "@svgr/webpack": "5.4.0",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
@@ -37,11 +39,10 @@
     "babel-jest": "^26.3.0",
     "babel-loader": "8.1.0",
     "babel-plugin-named-asset-import": "^0.3.6",
-    "@chancey/babel-preset-react-app": "^9.1.3",
+    "babel-plugin-styled-components": "^1.11.1",
     "bfj": "^7.0.2",
     "camelcase": "^6.0.0",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
-    "chancegraff-dev-utils": "^11.0.0",
     "css-loader": "3.6.0",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",

@@ -1,6 +1,6 @@
 {
-  "name": "chancegraff-dev-utils",
-  "version": "11.0.0",
+  "name": "@chancey/dev-utils",
+  "version": "11.0.1",
   "description": "Chance Graffs webpack utilities used by Create React App",
   "repository": {
     "type": "git",
