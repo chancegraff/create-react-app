@@ -1,7 +1,7 @@
 {
-  "name": "chancegraff-react-scripts",
+  "name": "@chancey/react-scripts",
   "version": "4.0.4",
-  "description": "Chance Graffs configuration and scripts for Create React App.",
+  "description": "Chance's configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
     "url": "https://github.com/chancegraff/create-react-app.git",
@@ -37,7 +37,7 @@
     "babel-jest": "^26.3.0",
     "babel-loader": "8.1.0",
     "babel-plugin-named-asset-import": "^0.3.6",
-    "babel-preset-react-app": "^9.1.2",
+    "@chancey/babel-preset-react-app": "^9.1.3",
     "bfj": "^7.0.2",
     "camelcase": "^6.0.0",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
