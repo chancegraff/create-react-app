@@ -419,6 +419,7 @@ module.exports = function (webpackEnv) {
                     ? 'production'
                     : isEnvDevelopment && 'development',
                   [
+                    'babel-plugin-styled-components',
                     'babel-plugin-named-asset-import',
                     '@chancey/babel-preset-react-app',
                     'react-dev-utils',
@@ -479,6 +480,7 @@ module.exports = function (webpackEnv) {
                     ? 'production'
                     : isEnvDevelopment && 'development',
                   [
+                    'babel-plugin-styled-components',
                     'babel-plugin-named-asset-import',
                     '@chancey/babel-preset-react-app',
                     'react-dev-utils',
