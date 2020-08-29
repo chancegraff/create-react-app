@@ -111,6 +111,8 @@ module.exports = function (api, opts, env) {
         require('@babel/plugin-transform-flow-strip-types').default,
         false,
       ],
+      // Styled components plugin
+      require('babel-plugin-styled-components'),
       // Experimental macros support. Will be documented after it's had some time
       // in the wild.
       require('babel-plugin-macros'),

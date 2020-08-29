@@ -1,15 +1,15 @@
 {
-  "name": "babel-preset-react-app",
-  "version": "9.1.2",
-  "description": "Babel preset used by Create React App",
+  "name": "@chance/babel-preset-react-app",
+  "version": "9.1.3",
+  "description": "Chance's Babel preset used by Create React App",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/chancegraff/create-react-app.git",
     "directory": "packages/babel-preset-react-app"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/chancegraff/create-react-app/issues"
   },
   "files": [
     "create.js",
@@ -35,6 +35,7 @@
     "@babel/preset-typescript": "7.10.4",
     "@babel/runtime": "7.10.5",
     "babel-plugin-macros": "2.8.0",
+    "babel-plugin-styled-components": "^1.11.1",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24"
   }
 }
